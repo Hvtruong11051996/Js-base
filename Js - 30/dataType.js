@@ -31,3 +31,8 @@ function myFuntion() {
     element = document.getElementById('content').value
     document.getElementById('reslut').innerHTML = element
 }
+
+function onHandleChange() {
+    element = document.getElementById('content-2').value
+    document.getElementById('reslut-2').innerHTML = element
+}
